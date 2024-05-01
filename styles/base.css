@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body,
+html {
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #174E70;
+    color: white;
+    text-align: center;
+    grid-column: 2;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-box {
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    padding: 25px 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navigation a:hover{
+    background-color: #174E70;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1.3em;
+    width: 19%;
+    font-family: 'roboto';
+}
+
+main {
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 38px 82px;
+    grid-gap: 30px;
+}
+
+.card-aboutMe {
+    grid-column: 1 / 4;
+}
+
+.card-webDevResources {
+    grid-column: 4 / 5;
+}
+
+.card-aboutMe,
+.card-webDevResources {
+    background-color: #174E70;
+    border: 1.2px solid #000;
+    border-radius: 6px;
+    box-shadow: 1.5px 1.5px 4px 0;
+}
+
+.card-aboutMe,
+.card-webDevResources {
+    background-color: white;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 300;
+}
+
+.card-aboutMe h3 {
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.card-aboutMe,
+.card-webDevResources {
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    line-height: 1.3;
+}
+
+.about-profile {
+    display: flex;
+    text-align: left;
+    align-items: center; 
+    padding: 20px;
+    justify-content: center; 
+}
+
+.about-profile p {
+    margin-right: 20px; 
+    flex: 1; 
+}
+
+.about-profile img {
+    margin-right: 20px;
+    max-width: 250px; 
+    height: 300px; 
+}
+
+.country-profile {
+    display: flex;
+    margin-bottom: 18px;
+    align-items: center; 
+    padding: 0 18px; 
+    justify-content: space-between; 
+}
+
+.country-profile img {
+    height: auto;
+    margin-right: 18px;
+    max-width: 80%;
+}
+
+.card-aboutMe h2 {
+    text-align: center;
+    width: 100%; 
+    display: block;
+    font-size: 32px;
+    margin: 12px;
+}
+
+.card-webDevResources ul {
+    font-size: 20px;
+    padding: 0;
+    margin-top: 35px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: 'roboto' sans-serif;
+    line-height: 1.6;
+}
+
+.card-webDevResources a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    background-color: #174E70;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'roboto' sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    font-size: 24px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+}
+
+#currentYear {
+    color: white;
+}
+
+#lastModified {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+    margin-top: 10px;
+}
