@@ -1,27 +1,35 @@
 @media screen and (min-width: 510px) {
-    #temple-img {
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    }
-
     #menu-hamburger {
         display: none;
     }
 
     #nav {
-        display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 
-    ul {
+    #nav ul {
         display: flex;
         flex-direction: row;
-        float: right;
+        justify-content: space-around;
+        width: auto;
+    }
+
+    #nav li {
+        margin: 0 10px;
+    }
+
+    #temple-container {
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        gap: 20px;
+    }
+
+    .temple-card {
         margin: 0;
-        text-align: center;
-        padding: 0;
-        min-width: 35%;
-        justify-content: space-between;
+    }
+
+    main {
+        max-width: 100%;
     }
 }
