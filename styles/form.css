@@ -13,7 +13,8 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    max-width: 90%;
+    width: 400px;
     margin: 20px auto;
     background: #fff;
     padding: 20px;
@@ -109,7 +110,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
 }
